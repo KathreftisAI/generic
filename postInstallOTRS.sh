@@ -3,6 +3,6 @@
 yum install perl-DBD-Pg git -y
 cd /opt/otrs
 git clone https://github.com/Unotechsoftware/Hawk.git
-cd OTRS-Kernel
+cd Hawk
 yes | cp -R * ../Kernel/
 systemctl restart httpd
